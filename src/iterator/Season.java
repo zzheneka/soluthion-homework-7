@@ -17,4 +17,9 @@ public class Season {
     public List<Episode> getEpisodes() {
         return episodes;
     }
+
+
+    public EpisodeIterator getIterator() {
+        return new SeasonIterator(episodes);
+    }
 }

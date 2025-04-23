@@ -21,3 +21,4 @@ public class Episode {
         return title + " (" + runtimeSec + "s)";
     }
 }
+
